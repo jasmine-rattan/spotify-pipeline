@@ -1,0 +1,29 @@
+.env
+# Large pipeline artifacts (not for GitHub)
+outputs/pipeline.db
+outputs/pipeline.db-shm
+outputs/pipeline.db-wal
+outputs/enriched.jsonl
+outputs/checkpoint_state.json
+outputs/run_log.txt
+grading/records.jsonl
+grading/calls.jsonl
+grading/checkpoint_after.json
+# Raw data CSV (too large)
+data/*.csv
+# Symlinks to dataset dir
+Final Assignment - Spotify Reviews Dataset
+local-reference.json
+self-check.json
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+# Node
+node_modules/
+dashboard/dist/
+# Python envs
+*.egg-info/
+.venv/
+venv/

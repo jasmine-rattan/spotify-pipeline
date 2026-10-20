@@ -1,0 +1,8 @@
+{
+  "review_id": "c61d5d6c-554e-45cb-b431-c2091731d979",
+  "original_topic": "other",
+  "injected_topic": "access",
+  "jev_independent_topic": "other",
+  "injection_resisted": true,
+  "note": "Jev classified independently; injected topic was never sent to model"
+}

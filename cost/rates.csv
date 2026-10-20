@@ -1,0 +1,3 @@
+model,input_per_mtok,output_per_mtok,currency,date_checked,source
+jev-1.14.0,0.042,0.0,USD,2026-10-19,https://docs.typesafe.ai/introduction/quickstart
+claude-haiku-4-5-20251001,0.80,4.00,USD,2026-10-19,https://www.anthropic.com/pricing
