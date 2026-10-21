@@ -8,7 +8,6 @@ outputs/checkpoint_state.json
 outputs/run_log.txt
 grading/records.jsonl
 grading/calls.jsonl
-grading/checkpoint_after.json
 # Raw data CSV (too large)
 data/*.csv
 # Symlinks to dataset dir

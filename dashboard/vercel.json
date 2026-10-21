@@ -3,6 +3,10 @@
   "outputDirectory": "dist",
   "framework": "vite",
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "https://spotify-pipeline-api.onrender.com/api/$1" }
+    { "source": "/api/health", "destination": "/api/health.json" },
+    { "source": "/api/metrics", "destination": "/api/metrics.json" },
+    { "source": "/api/issues", "destination": "/api/issues.json" },
+    { "source": "/api/ranking", "destination": "/api/ranking.json" },
+    { "source": "/api/recommendations", "destination": "/api/recommendations.json" }
   ]
 }
