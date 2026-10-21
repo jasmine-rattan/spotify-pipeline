@@ -3,7 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/spotify-pipeline/',  // GitHub Pages repo name
+  // base defaults to '/' which works for Vercel
+  // GitHub Pages deployment uses the pre-built docs/ folder (committed separately)
   server: {
     proxy: {
       '/api': 'http://localhost:8000',
