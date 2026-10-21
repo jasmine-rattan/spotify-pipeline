@@ -168,6 +168,8 @@ See `cost/report.md` for pilot run measurements and full projections.
 
 ## Dashboard
 
+**Live**: https://spotify-pipeline.vercel.app
+
 ```bash
 cd dashboard && npm install && npm run dev
 # Visit http://localhost:5173
