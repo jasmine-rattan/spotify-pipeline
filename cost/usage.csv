@@ -1,1 +1,6 @@
 run_id,stage,role,model,requests,input_tokens,output_tokens,wall_seconds
+cold-100,Stage2-v1,enrich,jev-1.14.0,84,19397,4485,0.8
+cold-100,Stage2-v3,enrich,jev-1.14.0,49,20191,2899,0.5
+cold-100,Stage4,group,claude-haiku-4-5-20251001,1,271,84,1.2
+cold-100,Stage6,memo,claude-haiku-4-5-20251001,1,596,771,2.1
+warm-100,Stage2,enrich,jev-1.14.0,0,0,0,0.05
